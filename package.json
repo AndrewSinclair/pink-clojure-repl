@@ -4,10 +4,8 @@
   "description": "A slide deck with clojure repl capabilities",
   "homepage": "https://github.com/AndrewSinclair/pink-clojure-repl",
   "author": "Bodil Stokke",
-  "licenses": [
-    "GPL-3.0",
-    "Eclipse Public License"
-  ],
+  "contributors": ["Andrew Sinclair <andrew.george.sinclair@gmail.com>"],
+  "license": "Eclipse Public License",
   "repository": {
     "type": "git",
     "url": "https://github.com/AndrewSinclair/pink-clojure-repl.git"

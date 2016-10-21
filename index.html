@@ -16,10 +16,17 @@ body { visibility: hidden; background: black; }
 
     <div id="slides">
 
-      <section>
-        <h1>OMG SLIDES</h1>
-      </section>
+    <section>
+      <h1>This is a Normal Text Slide!</h1>
+      <p>That's why there is just normal text onscreen</p>
+    </section>
+   
+    <section data-editor="text/x-clojure">
+    (ns core.slides)
 
+    (str "Hello, Clojure Enthusiasts! " (+ 1 2 3 4 5))
+    </section>
+  
     <script type="text/javascript" src="dist/pink/pink.js"></script>
   </body>
 </html>
