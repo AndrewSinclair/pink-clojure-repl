@@ -1,0 +1,21 @@
+{
+  "name": "pink-clojure-repl",
+  "version": "0.0.1",
+  "description": "A slide deck with clojure repl capabilities",
+  "homepage": "https://github.com/AndrewSinclair/pink-clojure-repl",
+  "author": "Bodil Stokke",
+  "licenses": [
+    "GPL-3.0",
+    "Eclipse Public License"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndrewSinclair/pink-clojure-repl.git"
+  },
+  "scripts": {
+    "start": "pink run slides.js"
+  },
+  "dependencies": {
+    "pink": "https://github.com/AndrewSinclair/pink/tarball/85a3ad424a6ce6356abe9b644dfb5a42afb49930"
+  }
+}
