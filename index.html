@@ -16,16 +16,94 @@ body { visibility: hidden; background: black; }
 
     <div id="slides">
 
-    <section>
-      <h1>This is a Normal Text Slide!</h1>
-      <p>That's why there is just normal text onscreen</p>
-    </section>
-   
+	<!-- 0 -->
     <section data-editor="text/x-clojure">
-    (ns core.slides)
-
-    (str "Hello, Clojure Enthusiasts! " (+ 1 2 3 4 5))
+	
+;; This is a comment
     </section>
+	
+	<!-- 1 -->
+	<section data-editor="text/x-clojure">
+;; Types
+1
+
+Math/PI
+
+3/7
+
+\a
+    </section>
+	
+	
+<!-- 2 -->	
+	<section data-editor="text/x-clojure">
+:symbols
+
+"strings"
+
+;; #".*"
+    </section>
+	
+	
+	<!-- 3 -->
+  	<section data-editor="text/x-clojure">
+(quote (1 2 3 4))
+
+[1 2 3 4]
+
+(def my-map
+  {:age        30
+   :fav-color  :blue
+   :fav-number 123})
+
+(:age my-map)
+    </section>
+  
+  <!-- 4 -->
+   	<section data-editor="text/x-clojure">
+;; These are none of the above
+
+true
+
+
+false
+
+
+nil ;; => ??
+    </section>
+  
+  
+  <!-- 5 -->
+    <section data-editor="text/x-clojure">
+(defn is-truthy? [value]
+  (if value
+	"True"
+	"False"))
+	
+(is-truthy? 123)
+	 
+(is-truthy? (quote ()))
+  
+(is-truthy? "")
+
+(is-truthy? false)
+
+(is-truthy? nil)
+
+    </section>
+	
+<!-- 6 -->
+    <section data-editor="text/x-clojure">
+;; Java Interop
+
+Math/PI
+
+(def my-int-obj (new Integer 123))
+
+my-int-obj
+
+(.toString my-int-obj)
+	</section>
   
     <script type="text/javascript" src="dist/pink/pink.js"></script>
   </body>
